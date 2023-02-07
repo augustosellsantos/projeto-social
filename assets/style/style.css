@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+:root {
+    /* Paleta de cores */
+    --cor: #ffffff;
+    --cor0: #000000;
+    --cor1: #BDBF80;
+    --cor2: #F0F2A7;
+    --cor3: #A6A272;
+    --cor4: #BF702A;
+    --cor5: #734124;
+    /* Fontes */
+    --font0: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* padrão */
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font0);
+}
+.header {
+    background-color: var(--cor4);
+    height: 11%;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+button {
+    cursor: pointer;
+}
+button i:hover {
+    color: var(--cor);
+}
+.menu {
+    position: relative;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 8rem;
+    background-color: var(--cor4);
+    height: 89%;
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+}
