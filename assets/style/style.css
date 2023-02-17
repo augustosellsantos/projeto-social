@@ -39,9 +39,16 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
+    height: 600px;
     width: 400px;
-    background: var(--cor3) url(../imagens/smartphone.png) no-repeat;
+    background: var(--cor3) url(../imagens/smartphone2.png) no-repeat;
+}
+#tela {
+    position: relative;
+    top: 80px;
+    left: 30px;
+    width: 200px;
+    height: 400px;
 }
 /**footer {
     background-color: var(--cor5);
