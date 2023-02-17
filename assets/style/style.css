@@ -26,8 +26,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: var(--font0);
-    background-color: var(--cor3);
-    background: url(../imagens/foto-fundo.jpg) no-repeat top center;
+    background: var(--cor2) url(../imagens/foto-fundo.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -40,8 +39,9 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--cor4);
-    background: url(../imagens/smartphone.jpg) no-repeat;
+    height: 500px;
+    width: 400px;
+    background: var(--cor3) url(../imagens/smartphone.png) no-repeat;
 }
 /**footer {
     background-color: var(--cor5);
