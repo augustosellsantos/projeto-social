@@ -44,7 +44,7 @@ main {
     transform: translate(-50%, -50%);
     height: 600px;
     width: 400px;
-    background: var(--cor3) url(../imagens/smartphone2.png) no-repeat;
+    background: var(--cor3) url(../imagens/smartphone1.jpg) no-repeat;
 }
 #tela {
     position: relative;
